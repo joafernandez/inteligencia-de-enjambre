@@ -44,8 +44,8 @@ El resultado se interpreta así: «habría que reasignar X % de la importancia p
 Requiere Python ≥ 3.11.
 
 ```bash
-git clone <url-del-repositorio>
-cd selector-criptografico-ia
+git clone https://github.com/joafernandez/inteligencia-de-enjambre.git
+cd inteligencia-de-enjambre
 python -m venv .venv
 # Windows:  .venv\Scripts\activate      Linux/macOS:  source .venv/bin/activate
 pip install -r requirements.txt
