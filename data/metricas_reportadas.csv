@@ -1,0 +1,15 @@
+# Valores REPORTADOS en Khan (2025), Sci. Rep. 15:41261, doi:10.1038/s41598-025-25173-3
+# Extraidos de https://pmc.ncbi.nlm.nih.gov/articles/PMC12638994/ (Tablas 8, 9, 16, 17 y 18).
+# No son calculados por este prototipo. Se transcriben sin corregir erratas:
+#  - FA bic_sac_prom = 0.01276 (Tabla 9) es inconsistente con su min 0.46484 / max 0.525391.
+#  - FA sac_prom = 0.42892 (Tabla 8); ANO sac_prom figura impreso como "0 0.5015".
+# Orden de filas de las Tablas 9-18 (rotulos como imagen) = orden de la Tabla 8; verificado
+# porque la columna NL de la Tabla 10 coincide con el NL promedio de la Tabla 8.
+id,nl_min,nl_max,nl_prom,bic_nl_min,bic_nl_max,bic_nl_prom,sac_min,sac_max,sac_prom,bic_sac_min,bic_sac_max,bic_sac_prom,du,lp,edas_score,edas_rank,topsis_cc,topsis_rank,saw_score,saw_rank
+CSO,108,110,109.25,92,108,103,0.42188,0.5781,0.5075,0.46289,0.5175718,0.49770,12,0.1406,0.6083,6,0.906,4,0.783,4
+PSO,108,112,111.5,104,112,110,0.4375,0.5781,0.5022,0.48633,0.525391,0.50656,6,0.1094,1.0000,1,0.968,1,0.997,1
+ANO,106,110,107,98,108,104,0.406,0.5625,0.5015,0.4707,0.523438,0.50160,10,0.1484,0.6386,5,0.904,6,0.775,6
+TLBO,104,110,106.5,98,108,105,0.4531,0.5469,0.4995,0.4810,0.5123,0.4983,10,0.117200,0.6952,3,0.911,3,0.792,3
+ABC,108,112,109.25,98,108,104,0.25,0.625,0.4985,0.47852,0.533203,0.49923,8,0.1171875,0.8015,2,0.914,2,0.793,2
+GA,108,108,108,96,108,103,0.4063,0.5781,0.50683,0.47070,0.531250,0.50174,10,0.140625,0.6609,4,0.906,5,0.782,5
+FA,106,108,107,98,108,104,0.42187,0.5781,0.42892,0.46484,0.525391,0.01276,10,0.1328125,0.0000,7,0.032,7,0.000,7
