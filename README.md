@@ -2,6 +2,10 @@
 
 **Sistema de selección criptográfica adaptativa mediante inteligencia de enjambre y decisión multicriterio.**
 
+[![Abrir la app](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://inteligencia-de-enjambre-joa.streamlit.app)
+
+**▶ Probar en línea, sin instalar nada:** https://inteligencia-de-enjambre-joa.streamlit.app
+
 Prototipo académico del proyecto de investigación *«Criptografía e Inteligencia Artificial»*, en la línea **inteligencia computacional para fortalecer la criptografía**.
 
 La aplicación compara las siete S-boxes publicadas en Khan (2025). Calcula sus propiedades criptográficas y recomienda la más adecuada según las prioridades que defina el usuario. Usa **Particle Swarm Optimization (PSO)** para medir cuánto depende esa recomendación de la elección de prioridades.
